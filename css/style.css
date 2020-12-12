@@ -1,0 +1,36 @@
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 1.4;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+#narration {
+  padding: 1rem 2rem;
+  background: #b4e3ea;
+}
+
+.butt {
+  padding: 1rem;
+  margin: .5rem 0;
+  background: #333;
+  color: #fff;
+}
+
+.butt:hover {
+  background: #069;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

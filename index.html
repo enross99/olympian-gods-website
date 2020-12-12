@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Olympian Gods</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Start your project here-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Greek Gods</a>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="credits.html">Credits</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="text-center">
+        <h1 class="text-one pt-3">The Greek Olympian Gods</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-around">
+      <div class="col-7 mt-3">
+        <p class="text-center">The pantheon of Greek gods consists of numerous major and minor gods and goddesses. The Olympians were the 12 principal deities who lived on Mount Olympus. They presided over all aspects of human life from the earth to things such as marriage and fertility.</p>
+        <p class="text-center">Typically the Olympians consist of Zeus, Poseidon, Hera, Demeter, Aphrodite, Apollo, Ares, Artemis, Athena, Hephaestus, and Hermes. The twelfth Olympian is listed as either Dionysus or Hestia depending on where you look and who you talk to. Hades is also sometimes considered to be among the Olympians, but technically he is considered one of the Underworld deities. For this reason, you will find Hestia, Dionysus, and Hades listed along with the other gods below. </p>
+      </div>
+    </div>
+
+
+<!-- carousel section begin: base code source from https://mdbootstrap.com/docs/jquery/javascript/carousel/ -->
+
+  <div class="row mt-5 justify-content-center">
+    <div class="col">
+
+  <div id="carousel-gods" class="carousel slide carousel-gods-item v-2" data-interval="false" data-ride="carousel">
+
+    <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+        <div class="carousel-item active">
+          <div class="d-flex card-deck justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/zeus.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Zeus</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: Sky, weather, kings, fate</h6>
+                <a class="btn btn-dark read-more" id="read-zeus">Read More</a>
+                <div id="zeus" class="div-info">
+                  <p class="card-text mt-2">Zeus was the youngest of the six deities born to Kronos and Rhea. Upon defeating Kronos and the other Titans, Zeus and his two brothers, drew lots to decide who would rule the sky, sea, and Underworld.  Zeus married his sister, Hera, however Zeus is known for his unfaithfulness. He has had many affairs with other beings, encouraging Hera's wrath. Two other Olympians were born from the union of Zeus and Hera: Ares and Hephaestus. Zeus's favored mortal son was Herakles whom Zeus helped throughout his trials and later welcomed to Mount Olympus. </p>
+                  <p class="card-text">Sacred animals: eagle, bull</p>
+                  <p class="card-text">Symbol: lightning bolt</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/poseidon.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Poseidon</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: sea, earthquakes, floods, horses</h6>
+                <a class="btn btn-dark read-more" id="read-poseidon">Read More</a>
+                <div id="poseidon" class="div-info">
+                  <p class="card-text mt-2">Often depicted holding a trident, Poseidon was one of the six deities born to Kronos and Rhea. He gained dominion over the sea when drawing lots with his brothers Zeus and Hades. Poseidon was married to Amphitrite, and together they had three children. The palace Poseidon resided in was said to be in the ocean near Aegae in Euboea. Myths note that at one point Poseidon competed with Athena to become the patron deity of Athens. He created the first horse as an offering to the king of Athens, but was ulimtately refused. In anger, Poseidon caused a drought throughout the land.</p>
+                  <p class="card-text">Sacred animals: bull, horse, dolphin</p>
+                  <p class="card-text">Symbol: trident</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/hades.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Hades</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: Underworld and the dead</h6>
+                <a class="btn btn-dark read-more" id="read-hades">Read More</a>
+                <div id="hades" class="div-info">
+                  <p class="card-text mt-2">Born to Kronos and Rhea, Hades came to be the King of the Underworld and god of the dead. He also had dominion over funeral rights and the hidden wealth of the earth. Hades was worshipped throughout Greece and Italy. His key attributes are the key of Hades and Cerberus, the infamous three-headed hell-hound. Hades is one of the gods listed here not technically considered to be one of the 12 Olympians. He was included due to his connection with several of the Olympians and how well known he is. </p>
+                  <p class="card-text">Sacred animals: screech owl</p>
+                  <p class="card-text">Symbols: royal sceptre, cornucopia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.First slide-->
+
+      <!--Second slide-->
+        <div class="carousel-item">
+          <div class="d-flex card-deck justify-content-center">
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/hera.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Hera</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: marriage, women, sky</h6>
+                <a class="btn btn-dark read-more " id="read-hera">Read More</a>
+                <div id="hera" class="div-info">
+                  <p class="card-text mt-2">Hera, one of the deities born to Kronos and Rhea, ended up marrying Zeus after he seduced her disguised as a cuckoo bird. Hera is known for her persecution of those Zeus has had affairs with as well as their children (ex. Herakles). She conceived Hephaestus alone after Athena's birth from Zeus's head. The myth then states that Hera threw Heaphaestus from Olympus because he was crippled. Together with Zeus she produced Ares and Hebe. She was often worshipped in common with Zeus, but the main place of Hera's worship was in Argos.</p>
+                  <p class="card-text">Sacred animals: cow, lion, cuckoo, peacock</p>
+                  <p class="card-text">Symbol: royal sceptre</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/demeter.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Demeter</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: agriculture, grain, and bread</h6>
+                <a class="btn btn-dark read-more" id="read-demeter">Read More</a>
+                <div id="demeter" class="div-info">
+                  <p class="card-text mt-2">One of the daughters born to Kronos and Rhea, Demeter is considered to be one of the fertility goddesses. One of the more famous myths concerning the goddess is the abduction of Persephone. In this myth, Demeter caused crops to die across the land as she searched for Persephone. Demeter was worshpped particularly by women. Since agriculture is the basis of beneficial soial conditions, Demeter was often depicted as a law-giving goddess. She was worshipped in Crete, Delos, Attica, among other cities. Many of the sacrifices offered to her included pigs, the symbol of fertility, bulls, cows, and fruits. </p>
+                  <p class="card-text">Sacred animals: snake, pig</p>
+                  <p class="card-text">Symbols: sheaf of grain, cornucopia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top"
+                  src="images/aph.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Aphrodite</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Domain: love, beauty, pleasure, and procreation</h6>
+                  <a class="btn btn-dark read-more" id="read-aph">Read More</a>
+                  <div id="aph" class="div-info">
+                    <p class="card-text mt-2">Aphrodite was born from sea foam where mutilated parts of Uranus had been thrown. She is said to have surpassed all goddesses in both beauty and gracefulness, and would punish those who neglected to worship her.  Aphrodite was said to have been married to Hephaestus, but as with most deities she was unfaithful to her lover. Most notably, Aphrodite had affairs with Ares, which led to the birth of several new gods. The main places Aphrodite was worshiped were the islands of Cyprus and Cythera.</p>
+                    <p class="card-text">Sacred animals: doves, geese</p>
+                    <p class="card-text">Symbols: Eros (winged godling), conch shells</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="d-flex card-deck justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/athena.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Athena</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: wisdom, good counsel, war</h6>
+                <a class="btn btn-dark read-more" id="read-athena">Read More</a>
+                <div id="athena" class="div-info">
+                  <p class="card-text mt-2">Athena was born from the head of Zeus as a fully-grown woman in battle armor. She was the patron deity of Athens and believed to maintain law, justice, and order within the courts and assemblies of people. Athena was also seen to be the protector of heroes  known for their prudence, strenght, and valor. Some of these heroes include Herakles, Perseus, Achilles, and Odysseus. Athena was worshipped across Greece, and sacrifices offered to her typically included bulls, rams, and cows. Some texts, however, state that only female animals were sacrificed to her save for female lambs.</p>
+                  <p class="card-text">Sacred animal: owl</p>
+                  <p class="card-text">Symbols: olive branch, aegis, gorgoneion</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/ares.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Ares</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: war, courage, battlelust</h6>
+                <a class="btn btn-dark read-more" id="read-ares">Read More</a>
+                <div id="ares" class="div-info">
+                  <p class="card-text mt-2">Ares is one of the few legitimate children of Zeus and Hera. There are a few myths that involve Ares and Aphrodite. One deals with Aphrodite having an affair with Ares, leading to Hephaestus trapping the two in a a golden net and humiliating them. Another deals with Ares gorging Adonis (one of Aphrodite's lovers) while in the form of a boar. Ares was worshipped in several places, one of them being Cochis, where the famous golden fleece hanged from a an oak-tree in a grove sacred to Ares.</p>
+                  <p class="card-text">Sacred animal: serpent</p>
+                  <p class="card-text">Symbol: helm</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top"
+                  src="images/heph.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Hephaestus</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Domain: fire, smiths, craftsmen, metalworking</h6>
+                  <a class="btn btn-dark read-more" id="read-heph">Read More</a>
+                  <div id="heph" class="div-info">
+                    <p class="card-text mt-2">Born from Hera's leg, Hephaestus was thrown from Olympus by his mother. In an act of revenge, Hephaestus captured Hera in a cursed throne ultimately leading to his return to Olympus. That being said, Hephaestus was often depicted as kind and obedient to Hera afterwards. Hephaestus is also the god that crafted Pandora (linked to the myth of Pandora's Box) at Zeus's command. Hephaestus's favored place on earth was Lemnos, but other volcanic islands were also believed to be his workshops.</p>
+                    <p class="card-text">Sacred animal: donkey</p>
+                    <p class="card-text">Symbols: hammer, tongs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Third slide-->
+
+        <!--Fourth slide-->
+        <div class="carousel-item">
+          <div class="d-flex card-deck justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/hermes.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Hermes</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: herds, travellers, thievery, trade, messengers, athletics</h6>
+                <a class="btn btn-dark read-more" id="read-hermes">Read More</a>
+                <div id="hermes" class="div-info">
+                  <p class="card-text mt-2">Hermes was born to Zeus and Maia. He worked as the personal messenger of Zeus as well as a guide to the dead.  As an infant, Hermes stole a cattle of the god Apollo, and crafted the first lyre. Zeus, amused by Hermes's antics, granted him a place among the twelve supreme gods (Olympians). Hermes's work as messenger of the gods led to the notion that Hermes promoted social intercourse and commerce among mortals. He was seen as a protector of peace and travellers, punishing any who refused to help them if the traveller had lost their way.</p>
+                  <p class="card-text">Sacred animals: ram, hare, hawk</p>
+                  <p class="card-text">Symbol: Caduceus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/apollo.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Apollo</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: prophecy and oracles, music, song and poetry, archery, healing</h6>
+                <a class="btn btn-dark read-more" id="read-apollo">Read More</a>
+                <div id="apollo" class="div-info">
+                  <p class="card-text mt-2">Apollo was the son of Zeus and Leto, and the brother of Artemis. Though Apollo is considered one of the twelve great gods (Olympians), he is represented as being dependent on Zeus for most of his power. For example, the source of all Apollo's prophetic powers was his father. The idea that Apollo was the god of the sun came from later texts and also works as a way to explain the many powers and attributes Apollo has. One point that is supported by numerous texts is that Apollo and his worship, festivals, and oracles, had more incluence on the Greeks than any of the other god.</p>
+                  <p class="card-text">Sacred animals: swan, raven</p>
+                  <p class="card-text">Symbols: lyre, bow</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top"
+                  src="images/artemis.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Artemis</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Domain: hunting, wilderness, wild animals, maidens</h6>
+                  <a class="btn btn-dark read-more" id="read-artemis">Read More</a>
+                  <div id="artemis" class="div-info">
+                    <p class="card-text mt-2">Artemis was the daughter of Zeus and Leto, and the sister of Apollo. Myth states that it's because of Artemis we have the constellation of Orion. Orion was a companion of the goddess, but Apollo tricked Artemis into killing him. Griefstricken, Artemis placed Orion among the stars. When Apollo became synonymous with the sun, so too Artemis became associated with the moon. Artemis was worshipped across all of Greece. Sacrifices offered to her would consist of stags, goats, and dogs.</p>
+                    <p class="card-text">Sacred animals: deer, bear</p>
+                    <p class="card-text">Symbols: bow and arrows</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--/.Fourth slide-->
+
+      <!--Fifth slide-->
+        <div class="carousel-item">
+          <div class="d-flex card-deck justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top"
+                src="images/dionysus.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Dionysus</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Domain: wine, pleasure, festivity, madness</h6>
+                <a class="btn btn-dark read-more" id="read-dionysus">Read More</a>
+                <div id="dionysus" class="div-info">
+                  <p class="card-text mt-2">Dionsysus was born to Zeus and Semele, the princess of Thebes. Common to Greek myths, Hera became furious that Zeus had been unfaithful once again. She tricked Semele into asking Zeus to appear in his true form which led to her death. Zeus took their unborn child and sewed Dionysus into his thigh, carrying Dionysus to term. Similar to Apollo, Dionysus was believed to have the power of revealing the future to mortals through the use of oracles. There were many temples and statues of Dionysus, and human sacrifices were ocasionally mentioned in older texts. </p>
+                  <p class="card-text">Sacred animals: panther, bull, serpent</p>
+                  <p class="card-text">Symbol: thyrsus (pine cone staff)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top"
+                  src="images/hestia.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Hestia</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Domain: heart and home, sacrifical flame</h6>
+                  <a class="btn btn-dark read-more" id="read-hestia">Read More</a>
+                  <div id="hestia" class="div-info">
+                    <p class="card-text mt-2">Hestia was the first-born child of Kronos nd Rhea. She was the first to be swallowed by Kronos and thus the last to be disgorged. Due to this Hestia is named both the eldest and youngest of the six siblings. Both Apollo and Poseidon sought Hestia's hand in marriage, but she refused. Hestia then asked Zeus to allow her to remain a virgin forever which he agreed to. It is for this reason that sacrifices to Hestia were only cows that were one year old. As Hestia is the goddess of sacrificial flame, myth states that she received a portion of any sacrifice made to the gods.</p>
+                    <p class="card-text">Sacred animal: pig</p>
+                    <p class="card-text">Symbols: hearth, kettle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--/.Fifth slide-->
+      </div>
+      <!--/.Slides-->
+      </div>
+      <!--/.Carousel Wrapper-->
+    </div>
+  </div>
+</div>
+<!--Controls-->
+
+<div class="controls-top">
+  <div class="d-flex justify-content-center pt-3">
+  <a class="btn btn-dark" href="#carousel-gods" data-slide="prev"><i
+      class="fas fa-chevron-right"></i>back</a>
+  <a class="btn btn-dark" href="#carousel-gods" data-slide="next"><i
+          class="fas fa-chevron-left"></i>next</a>
+  </div>
+</div>
+<!--/.Controls-->
+
+<!-- End carousel-->
+
+<!-- Quiz begin: base code from https://jsfiddle.net/macloo/e839csoL/ -->
+
+<div class="container">
+  <div class="row justify-content-around mt-5 pt-5">
+    <div class="col-7 ">
+      <h2>Take a quiz</h2>
+      <p>Maybe you already have a basic understanding of the gods mentioned above.  Test some of your trivia knowledge with the quiz below!</p>
+      <p id="narration"></p>
+
+      <div id="answer-buttons">
+        <div class="butt">Go</div>
+        <div class="butt">Go</div>
+        <div class="butt">Go</div>
+      </div>
+
+      <div id="other-buttons">
+        <div class="butt">Go</div>
+      </div>
+
+
+      <ul>
+        <li>Score: <span id="score"></span></li>
+        <li>Unanswered: <span id="notDone"></span></li>
+        <li>Answered: <span id="done"></span></li>
+      </ul>
+    </div>
+  </div>
+
+
+<!-- Quiz end-->
+
+  <div class="row mt-4">
+    <div class="col">
+      <p class="text-center"><small>Photos of the gods are by <a href="https://www.istockphoto.com/portfolio/NickMolokovich?mediatype=illustration">Nick   Molokovich</a> on <a href="https://www.istockphoto.com/vector/olympic-heroes-greek-and-roman-gods-gm1263566641-369872975">iStock.com</a></small></p>
+      <p class="text-center"><small>This page was created by Emma Ross in 2020. You   can <a href="https://github.com/enross99/map-project">click here</a> to view the  github repo.</small></p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
